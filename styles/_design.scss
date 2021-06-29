@@ -1,0 +1,62 @@
+header, footer {
+    background-color: $main;
+}
+.fill-bg {
+    background-color: $lightbg; 
+}
+.main-section {    
+    min-height:200px;
+}
+.background-img {
+    background-image: url(../images/purple-flowers-final.svg);
+    min-height:200px;
+}
+.light-bg {
+    background-color: $secondary;
+}
+.skill-list {
+    img {
+        width:40px;
+    }
+}
+.card {
+    border: solid 2px $secondary2;
+}
+
+.email-alt, .github-alt, .linkedin-alt {
+    display: none;
+  }
+  .no-svg .email-alt, .no-svg .github-alt, .no-svg .linkedin-alt {
+    display: block;
+    width: 32px;
+    height: 32px;
+  }
+
+  html {
+    font-size: 1rem !important;
+  }
+// Small devices (landscape phones, 576px and up)
+@media (min-width: $sm) {  
+    html {
+        font-size: 1.2rem !important;
+      }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: $md) {  
+    html {
+        font-size: 1.4rem !important;
+      }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: $lg) {  
+    html {
+        font-size: 1.6rem !important;
+      }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: $xl) {  
+
+}

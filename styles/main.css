@@ -1,0 +1,57 @@
+/*color variables*/
+header, footer {
+  background-color: #678da3; }
+
+.fill-bg {
+  background-color: rgba(255, 255, 255, 0.5); }
+
+.main-section {
+  min-height: 200px; }
+
+.background-img {
+  background-image: url(../images/purple-flowers-final.svg);
+  min-height: 200px; }
+
+.light-bg {
+  background-color: #8bcaf0; }
+
+.skill-list img {
+  width: 40px; }
+
+.card {
+  border: solid 2px #f0a3a6; }
+
+.email-alt, .github-alt, .linkedin-alt {
+  display: none; }
+
+.no-svg .email-alt, .no-svg .github-alt, .no-svg .linkedin-alt {
+  display: block;
+  width: 32px;
+  height: 32px; }
+
+html {
+  font-size: 1rem !important; }
+
+@media (min-width: 576px) {
+  html {
+    font-size: 1.2rem !important; } }
+
+@media (min-width: 768px) {
+  html {
+    font-size: 1.4rem !important; } }
+
+@media (min-width: 992px) {
+  html {
+    font-size: 1.6rem !important; } }
+
+.main {
+  background-color: #678da3 !important; }
+
+.fill-lt {
+  fill: #f9f9f0; }
+
+.color-lt {
+  color: #f9f9f0; }
+
+.color-lt a, .color-lt a:hover, .color-lt a:focus, .color-lt a:visited {
+  color: #f9f9f0 !important; }

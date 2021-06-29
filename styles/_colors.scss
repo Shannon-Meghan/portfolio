@@ -1,0 +1,13 @@
+
+.main {
+        background-color: $main !important;
+    }
+.fill-lt {
+    fill: $light;
+}
+.color-lt {
+    color: $light;
+}
+.color-lt a, .color-lt a:hover, .color-lt a:focus, .color-lt a:visited{
+    color: $light !important;
+}
